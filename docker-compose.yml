@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  container:
+    build: .
+    volumes:
+      - ./:/usr/src/app
+    command: sh -c 'cd app && yarn start'
+    ports:
+      - '6651:3000'
