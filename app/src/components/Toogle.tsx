@@ -15,9 +15,11 @@ const Toggle = () => {
     const changeTheme = () => {
         setIsDarkTheme(!isDarkTheme);
     };
+
     const light = {
         palette: {
             mode: "light" as PaletteMode,
+
         },
     };
 
@@ -32,7 +34,8 @@ const Toggle = () => {
             <CssBaseline/>
             <Container>
                 <div style={{marginLeft: '700px'}}>
-                <Switch checked={isDarkTheme} onChange={changeTheme}/>
+                    {isDarkTheme ? '🌙' : '🔆'}
+                    <Switch checked={isDarkTheme} onChange={changeTheme}/>
                 </div>
             </Container>
         </ThemeProvider>
