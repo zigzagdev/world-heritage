@@ -1,11 +1,10 @@
 import React from "react";
 import {Button} from "@mui/material";
-import Theme from "../components/Toogle"
+import Theme from "../components/Toogle";
+import MediaQuery from "react-responsive";
 
 const outline = {
     display: 'flex',
-    height: 100,
-    minWidth: '1024px',
 }
 
 const right2 = {
@@ -18,13 +17,27 @@ const headerSame = {
     margin: "0 40px 0 auto",
 };
 
+const tabHead = {
+    display: "flex",
+    marginLeft: "20px"
+};
+
 const sameLine = {
     display: "flex",
     margin: '30px 10px'
 }
 
+const tabLine = {
+    display: "flex",
+    margin: "30px 0"
+}
+
 const title = {
     margin: "0 auto 0 35px",
+}
+
+const tabTitle = {
+    margin: "0 auto 0 10px",
 }
 
 const font = {
@@ -34,19 +47,67 @@ const font = {
 
 const Header = () => {
     return (
-        <div style={outline}>
-            <div style={sameLine}>
-                <div style={title}>
-                    <a href="/" style={{textDecoration: "none"}}>
-                        <strong style={font}>World Heritage</strong>
-                    </a>
+        <div>
+            <MediaQuery query="(max-width: 640px)">
+                <div style={{display: "flex"}}>
+                    <div style={sameLine}>
+                        <div style={title}>
+                            <a href="/" style={{textDecoration: "none"}}>
+                                <strong style={font}>World Heritage</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <div style={headerSame}>
+                        <div style={right2}>
+                            <Theme/>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div style={headerSame}>
-                <div style={right2}>
-                    <Theme/>
+            </MediaQuery>
+            <MediaQuery query="(min-width: 641px) and (max-width: 768)">
+                <div style={sameLine}>
+                    <div style={title}>
+                        <a href="/" style={{textDecoration: "none"}}>
+                            <strong style={font}>World Heritage</strong>
+                        </a>
+                    </div>
                 </div>
-            </div>
+                <div style={headerSame}>
+                    <div style={right2}>
+                        <Theme/>
+                    </div>
+                </div>
+            </MediaQuery>
+            <MediaQuery query="(min-width: 769px) and (max-width: 1024px)">
+                <div style={sameLine}>
+                    <div style={title}>
+                        <a href="/" style={{textDecoration: "none"}}>
+                            <strong style={font}>World Heritage</strong>
+                        </a>
+                    </div>
+                </div>
+                <div style={headerSame}>
+                    <div style={right2}>
+                        <Theme/>
+                    </div>
+                </div>
+            </MediaQuery>
+            <MediaQuery query="(min-width: 1025px)">
+                <div style={{display: "flex"}}>
+                <div style={sameLine}>
+                    <div style={title}>
+                        <a href="/" style={{textDecoration: "none"}}>
+                            <strong style={font}>World Heritage</strong>
+                        </a>
+                    </div>
+                </div>
+                <div style={headerSame}>
+                    <div style={right2}>
+                        <Theme/>
+                    </div>
+                </div>
+                </div>
+            </MediaQuery>
         </div>
     )
 }
