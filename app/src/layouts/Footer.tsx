@@ -1,4 +1,6 @@
 import React from 'react';
+import MediaQuery from "react-responsive";
+import Theme from "../components/Toogle";
 
 const inner = {
     display: "inline-block",
@@ -25,23 +27,12 @@ const right1 = {
 const Footer = () => {
     return (
         <div style={outline}>
-            <div style={{margin: "20px 60px 23px auto"}}>
-                <div style={inner}>
-                    <a href="/" style={{textDecoration: "none"}}>
-                        <strong style={right1}>Search</strong>
-                    </a>
-                </div>
-                <div style={inner}>
-                    <a href="/" style={{textDecoration: "none"}}>
-                        <strong style={right1}>Top</strong>
-                    </a>
-                </div>
-                <div style={leftInner}>
-                    <a href="/" style={{textDecoration: "none"}}>
-                        <strong style={right1}>SNS</strong>
-                    </a>
-                </div>
-            </div>
+            <MediaQuery query="(max-width: 767px)">
+                fsadfsafsadfasdfttt
+            </MediaQuery>
+            <MediaQuery query="(min-width: 768px)">
+                kkrkrkrkrkrkrkrkrkrkrk
+            </MediaQuery>
         </div>
     )
 }
