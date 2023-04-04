@@ -33,7 +33,7 @@ const Toggle = () => {
         <ThemeProvider theme={isDarkTheme ? createTheme(dark) : createTheme(light)}>
             <CssBaseline/>
             <Container>
-                <div style={{marginLeft: '700px'}}>
+                <div style={{}}>
                     {isDarkTheme ? '🌙' : '🔆'}
                     <Switch checked={isDarkTheme} onChange={changeTheme}/>
                 </div>
