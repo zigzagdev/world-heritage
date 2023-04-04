@@ -14,12 +14,17 @@ const right2 = {
 
 const headerSame = {
     display: "flex",
-    margin: "0 40px 0 auto",
+    marginLeft: "40px",
+};
+
+const maxHeaderSame = {
+    display: "flex",
+    marginLeft: "700px",
 };
 
 const tabHead = {
     display: "flex",
-    marginLeft: "20px"
+    marginLeft: "100px"
 };
 
 const sameLine = {
@@ -45,67 +50,76 @@ const font = {
     color: "gray",
 }
 
+const minFont = {
+    fontSize: "30px",
+    color: "gray",
+}
+
 const Header = () => {
     return (
         <div>
             <MediaQuery query="(max-width: 640px)">
-                <div style={{display: "flex"}}>
-                    <div style={sameLine}>
-                        <div style={title}>
+                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                    <div>
+                        <div>
                             <a href="/" style={{textDecoration: "none"}}>
-                                <strong style={font}>World Heritage</strong>
+                                <strong style={font}>World</strong>
                             </a>
                         </div>
                     </div>
-                    <div style={headerSame}>
-                        <div style={right2}>
+                    <div>
+                        <div>
                             <Theme/>
                         </div>
                     </div>
                 </div>
             </MediaQuery>
-            <MediaQuery query="(min-width: 641px) and (max-width: 768)">
-                <div style={sameLine}>
-                    <div style={title}>
-                        <a href="/" style={{textDecoration: "none"}}>
-                            <strong style={font}>World Heritage</strong>
-                        </a>
+            <MediaQuery query="(min-width: 641px) and (max-width: 768px)">
+                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                    <div>
+                        <div>
+                            <a href="/" style={{textDecoration: "none"}}>
+                                <strong style={font}>World</strong>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div style={headerSame}>
-                    <div style={right2}>
-                        <Theme/>
+                    <div>
+                        <div>
+                            <Theme/>
+                        </div>
                     </div>
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 769px) and (max-width: 1024px)">
-                <div style={sameLine}>
-                    <div style={title}>
-                        <a href="/" style={{textDecoration: "none"}}>
-                            <strong style={font}>World Heritage</strong>
-                        </a>
+                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                    <div>
+                        <div>
+                            <a href="/" style={{textDecoration: "none"}}>
+                                <strong style={font}>World</strong>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div style={headerSame}>
-                    <div style={right2}>
-                        <Theme/>
+                    <div>
+                        <div>
+                            <Theme/>
+                        </div>
                     </div>
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 1025px)">
-                <div style={{display: "flex"}}>
-                <div style={sameLine}>
-                    <div style={title}>
-                        <a href="/" style={{textDecoration: "none"}}>
-                            <strong style={font}>World Heritage</strong>
-                        </a>
+                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                    <div>
+                        <div>
+                            <a href="/" style={{textDecoration: "none"}}>
+                                <strong style={font}>World</strong>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div style={headerSame}>
-                    <div style={right2}>
-                        <Theme/>
+                    <div>
+                        <div>
+                            <Theme/>
+                        </div>
                     </div>
-                </div>
                 </div>
             </MediaQuery>
         </div>
