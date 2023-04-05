@@ -47,7 +47,7 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 641px) and (max-width: 768px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={{display: "flex", margin: "30px 50px", justifyContent: "space-between"}}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
@@ -63,7 +63,7 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 769px) and (max-width: 1024px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={{display: "flex", margin: "30px 70px", justifyContent: "space-between"}}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
