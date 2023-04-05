@@ -24,33 +24,11 @@ const maxHeaderSame = {
 
 const tabHead = {
     display: "flex",
-    marginLeft: "100px"
-};
-
-const sameLine = {
-    display: "flex",
-    margin: '30px 10px'
-}
-
-const tabLine = {
-    display: "flex",
-    margin: "30px 0"
-}
-
-const title = {
-    margin: "0 auto 0 35px",
-}
-
-const tabTitle = {
-    margin: "0 auto 0 10px",
+    padding: "4% 9%",
+    justifyContent: "space-between"
 }
 
 const font = {
-    fontSize: "30px",
-    color: "gray",
-}
-
-const minFont = {
     fontSize: "30px",
     color: "gray",
 }
@@ -63,7 +41,7 @@ const Header = () => {
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
-                                <strong style={font}>World</strong>
+                                <strong style={{fontSize: '20px', color: 'gray'}}>World Heritage</strong>
                             </a>
                         </div>
                     </div>
@@ -75,11 +53,11 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 641px) and (max-width: 768px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={{display: "flex", padding: "4% 9%", justifyContent: "space-between"}}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
-                                <strong style={font}>World</strong>
+                                <strong style={{fontSize: '25px', color: 'gray'}}>World Heritage</strong>
                             </a>
                         </div>
                     </div>
@@ -91,11 +69,11 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 769px) and (max-width: 1024px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={{display: "flex", padding: "4% 9%", justifyContent: "space-between"}}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
-                                <strong style={font}>World</strong>
+                                <strong style={font}>World Heritage</strong>
                             </a>
                         </div>
                     </div>
@@ -107,11 +85,11 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 1025px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={{display: "flex", padding: "4% 9%", justifyContent: "space-between"}}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
-                                <strong style={font}>World</strong>
+                                <strong style={font}>World Heritage</strong>
                             </a>
                         </div>
                     </div>
