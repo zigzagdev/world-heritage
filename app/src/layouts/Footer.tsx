@@ -1,37 +1,54 @@
 import React from 'react';
 import MediaQuery from "react-responsive";
-import Theme from "../components/Toogle";
-
-const inner = {
-    display: "inline-block",
-    verticalAlign: "top",
-    margin: "0 20px",
-}
-
-const leftInner = {
-    display: "inline-block",
-    verticalAlign: "top",
-    margin: "0 70px 0 20px",
-}
 
 const outline = {
-    display: "grid",
-}
-
-const right1 = {
-    color: "darkblue",
-    fontSize: "24px",
-    textDecoration: "none",
+    display: 'flex',
+    justifyContent: 'flex-end',
+    paddingRight: '10%'
 }
 
 const Footer = () => {
     return (
-        <div style={outline}>
-            <MediaQuery query="(max-width: 767px)">
-                fsadfsafsadfasdfttt
+        <div>
+            <MediaQuery query="(max-width: 640px)">
+                <div style={outline}>
+                    <div>
+                        test1
+                    </div>
+                    <div>
+                        test2
+                    </div>
+                </div>
             </MediaQuery>
-            <MediaQuery query="(min-width: 768px)">
-                kkrkrkrkrkrkrkrkrkrkrk
+            <MediaQuery query="(min-width: 641px) and (max-width: 768px)">
+                <div style={outline}>
+                    <div>
+                        test1
+                    </div>
+                    <div>
+                        test2
+                    </div>
+                </div>
+            </MediaQuery>
+            <MediaQuery query="(min-width: 769px) and (max-width: 1024px)">
+                <div style={outline}>
+                    <div>
+                        test1
+                    </div>
+                    <div>
+                        test2
+                    </div>
+                </div>
+            </MediaQuery>
+            <MediaQuery query="(min-width: 1025px)">
+                <div style={outline}>
+                    <div>
+                        test1
+                    </div>
+                    <div>
+                        test2
+                    </div>
+                </div>
             </MediaQuery>
         </div>
     )
