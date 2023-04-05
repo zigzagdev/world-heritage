@@ -4,37 +4,9 @@ import Theme from "../components/Toogle";
 import MediaQuery from "react-responsive";
 
 const outline = {
-    display: 'flex',
-}
-
-const right2 = {
-    display: "block",
-    margin: '30px 10px'
-};
-
-const headerSame = {
     display: "flex",
-    marginLeft: "40px",
-};
-
-const maxHeaderSame = {
-    display: "flex",
-    marginLeft: "700px",
-};
-
-const tabHead = {
-    display: "flex",
-    marginLeft: "100px"
-};
-
-const sameLine = {
-    display: "flex",
-    margin: '30px 10px'
-}
-
-const tabLine = {
-    display: "flex",
-    margin: "30px 0"
+    margin: "30px 20px",
+    justifyContent: "space-between"
 }
 
 const title = {
@@ -59,11 +31,11 @@ const Header = () => {
     return (
         <div>
             <MediaQuery query="(max-width: 640px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={outline}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
-                                <strong style={font}>World</strong>
+                                <strong style={{fontSize: '20px'}}>World Heritage</strong>
                             </a>
                         </div>
                     </div>
@@ -75,7 +47,7 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 641px) and (max-width: 768px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={{display: "flex", margin: "30px 50px", justifyContent: "space-between"}}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
@@ -91,7 +63,7 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 769px) and (max-width: 1024px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={{display: "flex", margin: "30px 70px", justifyContent: "space-between"}}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
@@ -107,7 +79,7 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 1025px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={{display: "flex", margin: "30px 100px", justifyContent: "space-between"}}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
