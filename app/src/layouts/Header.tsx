@@ -4,25 +4,6 @@ import Theme from "../components/Toogle";
 import MediaQuery from "react-responsive";
 
 const outline = {
-    display: 'flex',
-}
-
-const right2 = {
-    display: "block",
-    margin: '30px 10px'
-};
-
-const headerSame = {
-    display: "flex",
-    marginLeft: "40px",
-};
-
-const maxHeaderSame = {
-    display: "flex",
-    marginLeft: "700px",
-};
-
-const tabHead = {
     display: "flex",
     padding: "4% 9%",
     justifyContent: "space-between"
@@ -37,7 +18,7 @@ const Header = () => {
     return (
         <div>
             <MediaQuery query="(max-width: 640px)">
-                <div style={{display: "flex", margin: "30px 20px", justifyContent: "space-between"}}>
+                <div style={outline}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
