@@ -1,5 +1,4 @@
 import React from 'react';
-import MediaQuery from "react-responsive";
 import {
     BrowserRouter,
     Routes,
@@ -7,7 +6,7 @@ import {
 } from "react-router-dom";
 import Top from "../components/Top";
 
-const Body = () => {
+function Body() {
     return (
         <div>
             <BrowserRouter>
@@ -17,6 +16,6 @@ const Body = () => {
             </BrowserRouter>
         </div>
     );
-};
+}
 
 export default Body;

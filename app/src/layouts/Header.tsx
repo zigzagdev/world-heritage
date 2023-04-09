@@ -4,7 +4,7 @@ import MediaQuery from "react-responsive";
 
 const outline = {
     display: "flex",
-    padding: "4% 9%",
+    padding: "4% 6%",
     justifyContent: "space-between"
 }
 
@@ -33,7 +33,7 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 641px) and (max-width: 768px)">
-                <div style={{display: "flex", padding: "4% 9%", justifyContent: "space-between"}}>
+                <div style={outline}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
@@ -49,7 +49,7 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 769px) and (max-width: 1024px)">
-                <div style={{display: "flex", padding: "4% 9%", justifyContent: "space-between"}}>
+                <div style={outline}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
@@ -65,7 +65,7 @@ const Header = () => {
                 </div>
             </MediaQuery>
             <MediaQuery query="(min-width: 1025px)">
-                <div style={{display: "flex", padding: "4% 9%", justifyContent: "space-between"}}>
+                <div style={outline}>
                     <div>
                         <div>
                             <a href="/" style={{textDecoration: "none"}}>
