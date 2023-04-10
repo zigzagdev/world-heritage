@@ -11,7 +11,7 @@ function Body() {
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/Top" element={<Top/>}/>
+                    <Route path="/" element={<Top/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
