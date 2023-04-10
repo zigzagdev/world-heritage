@@ -17,24 +17,7 @@ const Top = () => {
                         <span style={{color: 'darkred'}}>Popular Heritage</span>
                     </div>
                     <div style={{padding: '4% 3%', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
-                        <Card style={{width: '300px', margin: '3%', height: '230px'}}>
-                            dfsdfdsffdfsdafsfdsfsfsd
-                        </Card>
-                        <Card style={{width: '300px', margin: '3%', height: '230px'}}>
-                            dfsdfdsf
-                        </Card>
-                        <Card style={{width: '300px', margin: '3%', height: '230px'}}>
-                            dfsdfdsf
-                        </Card>
-                        <Card style={{width: '300px', margin: '3%', height: '230px'}}>
-                            dfsdfdsf
-                        </Card>
-                        <Card style={{width: '300px', margin: '3%', height: '230px'}}>
-                            dfsdfdsf
-                        </Card>
-                        <Card style={{width: '300px', margin: '3%', height: '230px'}}>
-                            dfsdfdsf
-                        </Card>
+
                     </div>
                 </div>
             </MediaQuery>
