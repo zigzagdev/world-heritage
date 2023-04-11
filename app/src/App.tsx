@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
-import Body from "./routes/Body";
+import Main from "./Main";
 
 function App() {
   return (
     <div>
       <Header/>
-      <Body/>
+      <Main/>
       <Footer/>
     </div>
   );
