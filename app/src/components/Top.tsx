@@ -1,28 +1,13 @@
-import React from 'react'
-import MediaQuery from "react-responsive";
-import {Card} from "@mui/material";
+import React from 'react';
 
 const Top = () => {
     return (
-        <div>
-            <MediaQuery query="(max-width: 640px)">
-            </MediaQuery>
-            <MediaQuery query="(min-width: 641px) and (max-width: 768px)">
-            </MediaQuery>
-            <MediaQuery query="(min-width: 769px) and (max-width: 1024px)">
-            </MediaQuery>
-            <MediaQuery query="(min-width: 1025px)">
-                <div style={{padding: '4% 5%'}}>
-                    <div>
-                        <span style={{color: 'darkred'}}>Popular Heritage</span>
-                    </div>
-                    <div style={{padding: '4% 3%', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between'}}>
+        <>
+            <div>
 
-                    </div>
-                </div>
-            </MediaQuery>
-        </div>
-    )
-}
+            </div>
+        </>
+    );
+};
 
 export default Top;

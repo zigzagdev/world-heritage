@@ -4,9 +4,9 @@ import {
     Routes,
     Route
 } from "react-router-dom";
-import Top from "../components/Top";
+import Top from "./components/Top";
 
-function Body() {
+function Main() {
     return (
         <div>
             <BrowserRouter>
@@ -18,4 +18,4 @@ function Body() {
     );
 }
 
-export default Body;
+export default Main;
