@@ -4,11 +4,11 @@ module.exports = {
   ],
   theme: {
     xxs: {max: '428'},
-    sp: '428px', // スマホサイズを追加
-    maxsp: { max: '427px' }, // maxも追加
-    sptb: { min: '428px', max: '559px' }, // min-maxを追加
+    sp: '428px',
+    maxsp: { max: '427px' },
+    sptb: { min: '428px', max: '559px' },
 
-    tb: '600px', // タブレットサイズを追加
+    tb: '600px',
     maxtb: { max: '599px' },
     tbpc: { min: '600px', max: '1023px' },
 
