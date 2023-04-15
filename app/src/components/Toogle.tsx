@@ -34,7 +34,8 @@ const Toggle = () => {
             <CssBaseline/>
             <Container>
                 <div style={{}}>
-                    {isDarkTheme ? '🌙' : '🔆'}<Switch checked={isDarkTheme} onChange={changeTheme}/>
+                    {isDarkTheme ? '🌙' : '🔆'}
+                    <Switch checked={isDarkTheme} onChange={changeTheme}/>
                 </div>
             </Container>
         </ThemeProvider>
