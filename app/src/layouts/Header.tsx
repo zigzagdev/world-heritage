@@ -1,6 +1,7 @@
 import React from "react";
-import Theme from "../components/Toogle";
+import Toggle from "../components/Toogle";
 import '../index.css';
+import Toogle from "../components/Toogle";
 
 const Header = () => {
     return (
@@ -18,7 +19,7 @@ const Header = () => {
                     </a>
                 </div>
                 <div>
-                    <Theme/>
+                    <Toogle/>
                 </div>
             </div>
         </>
