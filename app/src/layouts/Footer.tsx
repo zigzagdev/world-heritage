@@ -4,15 +4,21 @@ const Footer = () => {
     return (
         <div className="justify-end flex xxs:justify-center">
             <div className="xxs:flex-col item-center">
-            <div className='text-yellow-500'>
-                test
-            </div>
-            <div className='text-yellow-500'>
-                test
-            </div>
-            <div className='text-green-700'>
-                test
-            </div>
+                <div className='text-black text-lg'>
+                    <div className='xxs:text-gray-900 text-xs'>
+                        test
+                    </div>
+                </div>
+                <div className='text-black text-lg'>
+                    <div className='xxs:text-gray-900 text-xs'>
+                        test
+                    </div>
+                </div>
+                <div className='text-black text-lg'>
+                    <div className='xxs:text-gray-900 text-xs'>
+                        test
+                    </div>
+                </div>
             </div>
         </div>
     )
