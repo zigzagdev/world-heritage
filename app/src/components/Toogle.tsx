@@ -19,7 +19,6 @@ const Toggle = () => {
     const light = {
         palette: {
             mode: "light" as PaletteMode,
-
         },
     };
 
