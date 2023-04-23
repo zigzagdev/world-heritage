@@ -1,31 +1,40 @@
 import React from 'react';
-import {Card} from "@mui/material";
+import {
+    Card,
+    Grid,
+    Paper,
+    Typography
+} from "@mui/material";
 
 
 const Top = () => {
     return (
         <>
-            <div className='pb-5 px-8'>
+            <div className='max-w-[1400px] mx-10 md:mx-5 xs:mx-8'>
                 <strong>Popular Places</strong>
-                <div className='py-10 flex px-3 justify-between flex-wrap'>
-                    <Card style={{width: '200px', height: '100px'}} className='mx-2 my-5'>
-                        Conan
-                    </Card>
-                    <Card style={{width: '200px', height: '100px'}} className='mx-3 my-5'>
-                        Conan
-                    </Card>
-                    <Card style={{width: '200px', height: '100px'}} className='mx-3 my-5'>
-                        Conan
-                    </Card>
-                    <Card style={{width: '200px', height: '100px'}} className='mx-3 my-5'>
-                        Conan
-                    </Card>
-                    <Card style={{width: '200px', height: '100px'}} className='mx-3 my-5'>
-                        Conan
-                    </Card>
-                    <Card style={{width: '200px', height: '100px'}} className='mx-3 my-5'>
-                        Conan
-                    </Card>
+                <div className='my-5'>
+                    <div className="
+                     grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3
+                    sm:gap-4 gap-y-4 sm:gap-y-8 xs:grid-cols-1  xs:justify-items-center xxs:grid-cols-1 xxs:justify-items-center">
+                        <div className="px-3">
+                            <Card style={{background:'red', height: '100px', width: '240px'}}>Fuji</Card>
+                        </div>
+                        <div className="mx-3">
+                            <Card style={{background:'red', height: '100px', width: '240px'}}>Fuji</Card>
+                        </div>
+                        <div className="mx-3">
+                            <Card style={{background:'red', height: '100px', width: '240px'}}>Fuji</Card>
+                        </div>
+                        <div className="mx-3">
+                            <Card style={{background:'red', height: '100px', width: '240px'}}>Fuji</Card>
+                        </div>
+                        <div className="mx-3">
+                            <Card style={{background:'red', height: '100px', width: '240px'}}>Fuji</Card>
+                        </div>
+                        <div className="mx-3">
+                            <Card style={{background:'red', height: '100px', width: '240px'}}>Fuji</Card>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
