@@ -3,19 +3,18 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    xxs: {max: '428'},
-    sp: '428px',
-    maxsp: { max: '427px' },
-    sptb: { min: '428px', max: '559px' },
-
-    tb: '600px',
-    maxtb: { max: '599px' },
-    tbpc: { min: '600px', max: '1023px' },
-
-    maxpc: { max: '1023px' },
-    pc: '1024px',
-
-    extend: {},
+    screens: {
+      'xxs': {'min': '1px', 'max': '367px'},
+      'xs': {'min': '368px', 'max': '639px'},
+      'sm': {'min': '640px', 'max': '767px'},
+      'md': {'min': '768px', 'max': '1023px'},
+      'lg': {'min': '1024px', 'max': '1279px'},
+      'xl': {'min': '1280px', 'max': '1535px'},
+      '2xl': {'min': '1536px'},
+    },extend: {
+      'xxs': {'min': '1px', 'max': '367px'},
+      'xs': {'min': '368px', 'max': '639px'},
+    }
   },
   plugins: [],
 }
