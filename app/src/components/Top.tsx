@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-    Card,
-    Grid,
-    Paper,
-    Typography
-} from "@mui/material";
+import {Card} from "@mui/material";
 
 
 const Top = () => {
