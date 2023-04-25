@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom';
 const Top = () => {
     return (
         <>
-            <div className='max-w-[1400px] mx-10 mb-8 md:mx-5 sm:mx-5 xs:mx-8 xxs:mx-8'>
-                <strong>Popular Places</strong>
+            <div className='max-w-[1400px] mx-10 mb-8 md:mx-5 sm:mx-5 xs:mx-8 xxs:mx-8 '>
+                <h1 className='xs:text-center xs:font-mono xxs:text-center xxs:font-mono'>Popular Places</h1>
                 <div className='my-5'>
                     <div className="
                      grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3
@@ -36,7 +36,7 @@ const Top = () => {
                 </div>
                 <div className='my-14'>
                     <div className='my-7'>
-                        <strong>Each Continent</strong>
+                        <h2 className='xs:text-center xs:font-mono xxs:text-center xxs:font-mono'>Each Continent</h2>
                     </div>
                     <div className="
                      grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3
@@ -44,11 +44,13 @@ const Top = () => {
                      xxs:justify-items-center"
                     >
                         <div className="mx-3.5">
+                            <div className='text-center'>
                             <Link to='/Asia'>
                                 <Card style={{background: 'red', height: '100px', width: '240px'}}>
-                                    test
+                                    <p className='my-10'>Asia Lists</p>
                                 </Card>
                             </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
