@@ -1,5 +1,6 @@
 import React from 'react';
 import {Card} from "@mui/material";
+import {Link} from 'react-router-dom';
 
 
 const Top = () => {
@@ -33,8 +34,23 @@ const Top = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-
+                <div className='my-14'>
+                    <div className='my-7'>
+                        <strong>Each Continent</strong>
+                    </div>
+                    <div className="
+                     grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3
+                     sm:gap-4 gap-y-4 sm:gap-y-8 xs:grid-cols-1  xs:justify-items-center xxs:grid-cols-1
+                     xxs:justify-items-center"
+                    >
+                        <div className="mx-3.5">
+                            <Link to='/Asia'>
+                                <Card style={{background: 'red', height: '100px', width: '240px'}}>
+                                    test
+                                </Card>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
