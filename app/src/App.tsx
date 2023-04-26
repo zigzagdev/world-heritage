@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
-import Main from "./Main";
+import Index from "./components/Index";
 
 function App() {
-  return (
-    <div>
-      <Header/>
-      <Main/>
-      <Footer/>
-    </div>
-  );
+    return (
+        <div>
+            <Header/>
+            <Index/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

@@ -4,18 +4,20 @@ import {
     Routes,
     Route
 } from "react-router-dom";
-import Top from "./components/Top";
+import Top from "./Top";
+import Asia from "./continents/Asia";
 
-function Main() {
+function Index() {
     return (
         <div>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Top/>}/>
+                    <Route path="/Asia" element={<Asia/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
     );
 }
 
-export default Main;
+export default Index;
