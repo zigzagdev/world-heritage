@@ -1,5 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Card} from "@mui/material";
+
+type heritage = {
+    id: number;
+    name: string;
+    category: number;
+    explanation: string;
+}
 
 function Asia() {
     return (
@@ -29,10 +36,7 @@ function Asia() {
                         <Card style={{background: 'red', height: '200px', width: '300px'}}>Fuji</Card>
                     </div>
                     <div className="mx-4 my-3">
-                        <Card
-                            style={{background: 'red', height: '200px', width: '300px'}}
-                            className='xs:w-5 xxs:w-2'
-                        >
+                        <Card style={{background: 'red', height: '200px', width: '300px'}}>
                             Fuji
                         </Card>
                     </div>
@@ -61,10 +65,7 @@ function Asia() {
                         <Card style={{background: 'red', height: '200px', width: '300px'}}>Fuji</Card>
                     </div>
                     <div className="mx-4 my-3">
-                        <Card
-                            style={{background: 'red', height: '200px', width: '300px'}}
-                            className='xs:w-5 xxs:w-2'
-                        >
+                        <Card style={{background: 'red', height: '200px', width: '300px'}}>
                             Fuji
                         </Card>
                     </div>
