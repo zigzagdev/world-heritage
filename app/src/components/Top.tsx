@@ -2,11 +2,10 @@ import React from 'react';
 import {Card} from "@mui/material";
 import {Link} from 'react-router-dom';
 
-
 const Top = () => {
     return (
         <>
-            <div className='max-w-[1400px] mx-10 mb-8 md:mx-5 sm:mx-5 xs:mx-8 xxs:mx-8 '>
+            <div className='max-w-[1400px] mx-10 mb-8 md:mx-5 sm:mx-5 xs:mx-8 xxs:mx-8'>
                 <h1 className='xs:text-center xs:font-mono xxs:text-center xxs:font-mono'>Popular Places</h1>
                 <div className='my-5'>
                     <div className="
@@ -45,11 +44,11 @@ const Top = () => {
                     >
                         <div className="mx-3.5">
                             <div className='text-center'>
-                            <Link to='/Asia'>
-                                <Card style={{background: 'red', height: '100px', width: '240px'}}>
-                                    <p className='my-10'>Asia Lists</p>
-                                </Card>
-                            </Link>
+                                <Link to='/Asia'>
+                                    <Card style={{background: 'red', height: '100px', width: '240px'}}>
+                                        <p className='my-10'>Asia Lists</p>
+                                    </Card>
+                                </Link>
                             </div>
                         </div>
                     </div>

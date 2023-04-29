@@ -14,22 +14,27 @@ function Asia() {
                      xxs:justify-items-center"
                 >
                     <div className="mx-4 my-3 md:mx-2.5">
-                        <Card style={{background: 'red', height: '200px', width: '330px'}}>Fuji</Card>
+                        <Card style={{background: 'red', height: '200px', width: '300px'}}>Fuji</Card>
                     </div>
                     <div className="mx-4 my-3 md:mx-2.5">
-                        <Card style={{background: 'red', height: '200px', width: '330px'}}>Fuji</Card>
+                        <Card style={{background: 'red', height: '200px', width: '300px'}}>Fuji</Card>
                     </div>
                     <div className="mx-4 my-3">
-                        <Card style={{background: 'red', height: '200px', width: '330px'}}>Fuji</Card>
+                        <Card style={{background: 'red', height: '200px', width: '300px'}}>Fuji</Card>
                     </div>
                     <div className="mx-4 my-3">
-                        <Card style={{background: 'red', height: '200px', width: '330px'}}>Fuji</Card>
+                        <Card style={{background: 'red', height: '200px', width: '300px'}}>Fuji</Card>
                     </div>
                     <div className="mx-4 my-3">
-                        <Card style={{background: 'red', height: '200px', width: '330px'}}>Fuji</Card>
+                        <Card style={{background: 'red', height: '200px', width: '300px'}}>Fuji</Card>
                     </div>
                     <div className="mx-4 my-3">
-                        <Card style={{background: 'red', height: '200px', width: '330px'}}>Fuji</Card>
+                        <Card
+                            style={{background: 'red', height: '200px', width: '300px'}}
+                            className='xs:w-5 xxs:w-2'
+                        >
+                            Fuji
+                        </Card>
                     </div>
                 </div>
                 <div
