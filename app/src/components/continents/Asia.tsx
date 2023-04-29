@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card} from "@mui/material";
 
-type API = {
+type heritage = {
     id: number;
     name: string;
     category: number;
