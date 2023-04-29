@@ -7,8 +7,8 @@ import {
 import Top from "./Top";
 import Asia from "./continents/Asia";
 
-function Index() {
-    return (
+const Path = () => {
+    return(
         <div>
             <BrowserRouter>
                 <Routes>
@@ -17,7 +17,7 @@ function Index() {
                 </Routes>
             </BrowserRouter>
         </div>
-    );
+    )
 }
 
-export default Index;
+export default Path;
