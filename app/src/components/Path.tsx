@@ -7,7 +7,7 @@ import {
 import Top from "./Top";
 import Asia from "./continents/Asia";
 
-const EachRoutes = () => {
+const Path = () => {
     return(
         <div>
             <BrowserRouter>
@@ -20,4 +20,4 @@ const EachRoutes = () => {
     )
 }
 
-export default EachRoutes;
+export default Path;
