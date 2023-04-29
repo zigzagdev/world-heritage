@@ -1,11 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 
 const Footer = () => {
     return (
         <div className="my-10 xxs:flex-col xxs:justify-center xxs:items-center flex justify-end px-10">
-            <div className='text-black-500 xxs:text-gray-500 xxs:py-3'>
+            <a href='/' className='text-black-500 xxs:text-gray-500 xxs:py-3'>
                 Top
-            </div>
+            </a>
             <div className='text-black-500 px-12 xxs:text-gray-500 xxs:py-3'>
                 SNS
             </div>
