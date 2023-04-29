@@ -1,6 +1,13 @@
 import React from 'react';
 import {Card} from "@mui/material";
 
+type API = {
+    id: number;
+    name: string;
+    category: number;
+    explanation: string;
+}
+
 function Asia() {
     return (
         <div className='max-w-[1300px] mx-10 mb-8 md:mx-5 sm:mx-5 xs:mx-8 xxs:mx-8'>
