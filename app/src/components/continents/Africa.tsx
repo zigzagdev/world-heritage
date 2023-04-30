@@ -68,7 +68,3 @@ export default Africa;
 
 
 
-
-
-
-
