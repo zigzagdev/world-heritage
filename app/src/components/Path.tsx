@@ -15,7 +15,7 @@ const Path = () => {
                 <Routes>
                     <Route path="/" element={<Top/>}/>
                     <Route path="/Asia" element={<Asia/>}/>
-                    <Route path="/Asia" element={<Africa/>}/>
+                    <Route path="/Africa" element={<Africa/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
