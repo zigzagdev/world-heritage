@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {Card} from "@mui/material";
 
-type heritage = {
+type Asiaheritage = {
     id: number;
     name: string;
     category: number;
