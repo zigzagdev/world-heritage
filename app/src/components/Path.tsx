@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import Top from "./Top";
 import Asia from "./continents/Asia";
-import Africa from "./continents/Africa";
 
 const Path = () => {
     return(
@@ -15,7 +14,6 @@ const Path = () => {
                 <Routes>
                     <Route path="/" element={<Top/>}/>
                     <Route path="/Asia" element={<Asia/>}/>
-                    <Route path="/Africa" element={<Africa/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
