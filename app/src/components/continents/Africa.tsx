@@ -65,5 +65,3 @@ function Africa() {
 export default Africa;
 
 
-
-
