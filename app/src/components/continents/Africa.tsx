@@ -1,5 +1,5 @@
 import React from 'react';
-import PostCard from "../Items/PostCard";
+import PostCard from "../items/PostCard";
 
 type AfricaHeritage = {
     id: number,
