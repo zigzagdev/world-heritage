@@ -69,6 +69,9 @@ function Africa() {
                      xxs:justify-items-center"
             >
                 <PostCard/>
+                <PostCard/>
+                <PostCard/>
+                <PostCard/>
             </div>
         </div>
     );
