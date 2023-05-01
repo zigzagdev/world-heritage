@@ -11,6 +11,9 @@ type AfricaHeritage = {
 function Africa() {
     return (
         <div className='mx-24 mb-8 md:mx-5 sm:mx-5 xs:mx-8 xxs:mx-8'>
+            <h1 className='xxs:items-center xs:items-center my-7 xs:my-3.5 xxs:my-2.5'>
+                Top popular Heritage in Africa Rank
+            </h1>
             <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-2
                      sm:gap-4 gap-y-4 sm:gap-y-8 xs:grid-cols-1  xs:justify-items-center xxs:grid-cols-1
                      xxs:justify-items-center">
@@ -56,6 +59,15 @@ function Africa() {
                 </div>
                 <PostCard/>
                 <PostCard/>
+            </div>
+            <h2 className='xxs:items-center xs:items-center my-7 xs:my-3.5 xxs:my-2.5'>
+                World heritage famous country
+            </h2>
+            <div className="
+                     grid grid-cols-3 sm:grid-cols-2 md:grid-cols-2
+                     sm:gap-4 gap-y-4 sm:gap-y-8 xs:grid-cols-1  xs:justify-items-center xxs:grid-cols-1
+                     xxs:justify-items-center"
+            >
                 <PostCard/>
             </div>
         </div>
