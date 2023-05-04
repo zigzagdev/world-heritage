@@ -52,18 +52,10 @@ function SouthAmerica() {
                      sm:gap-4 gap-y-4 sm:gap-y-8 xs:grid-cols-1  xs:justify-items-center xxs:grid-cols-1
                      xxs:justify-items-center"
                     >
-                        <div className="mx-4 my-3 md:mx-2.5">
-                            <Card style={{background: 'red', height: '200px', width: '300px'}}>Argentina</Card>
-                        </div>
-                        <div className="mx-4 my-3 md:mx-2.5">
-                            <Card style={{background: 'red', height: '200px', width: '300px'}}>Brazil</Card>
-                        </div>
-                        <div className="mx-4 my-3">
-                            <Card style={{background: 'red', height: '200px', width: '300px'}}>Japan</Card>
-                        </div>
-                        <div className="mx-4 my-3">
-                            <Card style={{background: 'red', height: '200px', width: '300px'}}>Ecuador</Card>
-                        </div>
+                        <PostCard/>
+                        <PostCard/>
+                        <PostCard/>
+                        <PostCard/>
                     </div>
                 </div>
             </div>
