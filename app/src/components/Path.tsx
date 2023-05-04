@@ -7,6 +7,7 @@ import {
 import Top from "./Top";
 import Asia from "./continents/Asia";
 import Africa from "./continents/Africa";
+import SouthAmerica from "./continents/SouthAmerica";
 
 const Path = () => {
     return(
@@ -16,6 +17,7 @@ const Path = () => {
                     <Route path="/" element={<Top/>}/>
                     <Route path="/Asia" element={<Asia/>}/>
                     <Route path="/Africa" element={<Africa/>}/>
+                    <Route path="/SouthAmerica" element={<SouthAmerica/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

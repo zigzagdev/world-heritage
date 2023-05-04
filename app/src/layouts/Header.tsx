@@ -1,5 +1,4 @@
 import React from "react";
-import Toggle from "../components/Toogle";
 import '../index.css';
 import Toogle from "../components/Toogle";
 
