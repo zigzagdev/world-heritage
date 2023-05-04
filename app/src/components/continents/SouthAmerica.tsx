@@ -58,12 +58,8 @@ function SouthAmerica() {
                         <div className="mx-4 my-3 md:mx-2.5">
                             <Card style={{background: 'red', height: '200px', width: '300px'}}>Brazil</Card>
                         </div>
-                        <div className="mx-4 my-3">
-                            <Card style={{background: 'red', height: '200px', width: '300px'}}>Japan</Card>
-                        </div>
-                        <div className="mx-4 my-3">
-                            <Card style={{background: 'red', height: '200px', width: '300px'}}>Ecuador</Card>
-                        </div>
+                        <PostCard/>
+                        <PostCard/>
                     </div>
                 </div>
             </div>
