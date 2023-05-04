@@ -1,5 +1,6 @@
 import React from 'react';
 import PostCard from "../items/PostCard";
+import {Card} from "@mui/material";
 
 type SouthAmericaHeritage = {
     id: number;
@@ -22,7 +23,21 @@ function SouthAmerica() {
                      sm:gap-4 gap-y-4 sm:gap-y-8 xs:grid-cols-1  xs:justify-items-center xxs:grid-cols-1
                      xxs:justify-items-center"
                     >
-
+                        <div className="mx-4 my-3">
+                            <Card style={{background: 'red', height: '200px', width: '300px'}}>
+                                Fuji
+                            </Card>
+                        </div>
+                        <div className="mx-4 my-3">
+                            <Card style={{background: 'red', height: '200px', width: '300px'}}>
+                                Fuji
+                            </Card>
+                        </div>
+                        <div className="mx-4 my-3">
+                            <Card style={{background: 'red', height: '200px', width: '300px'}}>
+                                Fuji
+                            </Card>
+                        </div>
                     </div>
                 </div>
             </div>
