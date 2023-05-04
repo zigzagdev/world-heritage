@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from "./layouts/Header";
-import Path from "./components/Path";
 import Footer from "./layouts/Footer";
+import Body from "./components/Body";
 
 function App() {
     return (
         <div>
             <Header/>
-            <Path/>
+            <Body/>
             <Footer/>
         </div>
     );
