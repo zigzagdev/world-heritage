@@ -1,4 +1,5 @@
 import React from 'react';
+import Toast from "./Toast";
 
 function PostCard() {
     return (
