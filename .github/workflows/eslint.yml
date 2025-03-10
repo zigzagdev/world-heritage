@@ -20,10 +20,16 @@ jobs:
           node-version: 18
 
       - name: Change Directory & npm install
-        run: cd app & npm install
+        run: |
+          cd app
+          npm install
 
       - name: Run ESLint
-        run: npm run lint
+        run: |
+          cd app
+          npm run lint
 
       - name: Run Prettier Check
-        run: npm run format:check
+        run: |
+          cd app
+          npm run format:check
